@@ -43,21 +43,15 @@ unicode-bidi: isolate;
     z-index: -1;
     }
     
-    
-    
-    
-    
-    
-    
-    img{
-       border-radius: 50%;
-       
-       width: 150px; 
-       height: 150px;
-       object-fit: cover;
-       border: 3px solid rgb(20, 43, 105);
-       margin-bottom: 15px;
-    }
+
+   img {
+      border-radius: 50%;
+      width: 150px; 
+      height: 150px;
+      object-fit: cover;
+      border: 3px solid rgb(20, 43, 105);
+      margin-bottom: 15px;}
+
    header {
       color: rgb(130, 184, 255);
     text-align: center;
@@ -74,6 +68,7 @@ unicode-bidi: isolate;
 
 h2 {
    text-align: center;
+   color: #02083b;
 }
 
 hr{ border: none;
@@ -81,4 +76,57 @@ hr{ border: none;
    background: #02083b;
    width: 90%;
    margin: 15px auto;}
+
+
+
+a{
+   color: #1927a8;
+   text-decoration: none;
+   transition: color 0.2s;
+}
+
+a:hover{
+   color: #8a93e6;
+   text-decoration: underline;
+}
+
+a:visited{
+   color: #3a00cc;
+}
+
+li:hover{ 
+color: #450ce2;
+transform: translateY(-3px);
+}
+
+li{
+   margin-bottom: 5px;
+   transition: transform 0.2s ease, color 0.2s ease;
+}
+ul{
+   flex-wrap: wrap;
+   display: flex;
+   margin-bottom: 20px;
+list-style-type: none;
+gap:5px;
+margin-left: 0;
+margin-right: 30px;
+justify-content: space-evenly;
+align-items: stretch;
+flex-direction: row;
+flex-basis: 150px;
+box-sizing: border-box;
+
+}
+
+
+li{
+   flex: 1 1;
+   background-color:rgb(162, 155, 255) ;
+   padding: 8px 15px;
+   border-radius: 20px;
+   font-size: 0.9rem;
+   border: 1px solid rgb(111, 101, 255);
+}
+
 
